@@ -1,0 +1,107 @@
+input, select, textarea{
+	border-radius: 3px;
+}
+
+input, select{
+	height: 30px;
+}
+
+
+#tabs-1 a, #tabs-3 a, #tabs-6 a{
+	color: #0074a2!important;
+	text-decoration: none;
+}
+
+#tabs-1 a:hover, #tabs-3 a:hover, #tabs-6 a:hover{
+	color: #2ea2cc!important;
+}
+#adminmenu .wp-menu-image img{
+	margin-top: -4px;
+}
+#start, #ql-start, #next, #check, #finish {
+border-radius: 10px;
+border: 1px solid black;
+}
+#restart{
+	margin-top: 10px;
+}
+.tm-option{
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+.tm-points{
+	font-size: 20px;
+border: 1px solid black;
+padding: 5px;
+font-style: italic;
+border-radius: 5px;
+}
+.tm-question, .tm-finished{
+
+	padding: 0;
+	-webkit-box-shadow: -2px 3px 18px 1px rgba(0,0,0,0.83);
+	-moz-box-shadow: -2px 3px 18px 1px rgba(0,0,0,0.83);
+	box-shadow: -2px 3px 18px 1px rgba(0,0,0,0.83);
+
+}
+.tm-fsingle {
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.tmo{
+	height:13px;
+}
+a:active, a:focus{
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+
+input[type="submit"], input[type="button"]{
+	width: 150px;
+	height: 40px;
+}
+
+.delete, .addanswer{
+	vertical-align: middle!important;
+	margin: 0 5px!important;
+}
+
+.first td{
+	border-bottom: 1px solid dimgrey;
+	padding-bottom: 10px;
+	color: dimgrey;
+	font-weight: bold;
+}
+
+#show tr:nth-child(2n){
+	background-color: #EEEEEE;
+}
+
+#show tr:nth-child(2n+1){
+	background-color:#f8f8f8;
+}
+
+#show td{
+	padding: 10px;
+}
+
+#show td:first-of-type{
+	width: 65px;
+}
+
+#show .tmqid{
+	width: 150px;
+}
+
+.tm_question{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.tm_question_main{
+	font-size: medium;
+	margin-bottom: 10px;
+}
